@@ -49,6 +49,7 @@
 		917E40F625246CBE00D77C3F /* PushNotificationWithFCMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PushNotificationWithFCMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		917E40FA25246CBE00D77C3F /* PushNotificationWithFCMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationWithFCMUITests.swift; sourceTree = "<group>"; };
 		917E40FC25246CBE00D77C3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		917E410B25246FD700D77C3F /* PushNotificationWithFCM.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PushNotificationWithFCM.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +100,7 @@
 		917E40D725246CBC00D77C3F /* PushNotificationWithFCM */ = {
 			isa = PBXGroup;
 			children = (
+				917E410B25246FD700D77C3F /* PushNotificationWithFCM.entitlements */,
 				917E40D825246CBC00D77C3F /* AppDelegate.swift */,
 				917E40DA25246CBC00D77C3F /* SceneDelegate.swift */,
 				917E40DC25246CBC00D77C3F /* ViewController.swift */,
@@ -436,6 +438,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PushNotificationWithFCM/PushNotificationWithFCM.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NA4GG5YL9W;
 				INFOPLIST_FILE = PushNotificationWithFCM/Info.plist;
@@ -456,6 +459,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PushNotificationWithFCM/PushNotificationWithFCM.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NA4GG5YL9W;
 				INFOPLIST_FILE = PushNotificationWithFCM/Info.plist;
