@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		917E40D925246CBC00D77C3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917E40D825246CBC00D77C3F /* AppDelegate.swift */; };
-		917E40DB25246CBC00D77C3F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917E40DA25246CBC00D77C3F /* SceneDelegate.swift */; };
 		917E40DD25246CBC00D77C3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917E40DC25246CBC00D77C3F /* ViewController.swift */; };
 		917E40E025246CBC00D77C3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 917E40DE25246CBC00D77C3F /* Main.storyboard */; };
 		917E40E225246CBD00D77C3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 917E40E125246CBD00D77C3F /* Assets.xcassets */; };
@@ -38,7 +37,6 @@
 /* Begin PBXFileReference section */
 		917E40D525246CBC00D77C3F /* PushNotificationWithFCM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushNotificationWithFCM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		917E40D825246CBC00D77C3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		917E40DA25246CBC00D77C3F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		917E40DC25246CBC00D77C3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		917E40DF25246CBC00D77C3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		917E40E125246CBD00D77C3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -104,7 +102,6 @@
 			children = (
 				917E410B25246FD700D77C3F /* PushNotificationWithFCM.entitlements */,
 				917E40D825246CBC00D77C3F /* AppDelegate.swift */,
-				917E40DA25246CBC00D77C3F /* SceneDelegate.swift */,
 				917E40DC25246CBC00D77C3F /* ViewController.swift */,
 				917E40DE25246CBC00D77C3F /* Main.storyboard */,
 				917E40E125246CBD00D77C3F /* Assets.xcassets */,
@@ -266,7 +263,6 @@
 			files = (
 				917E40DD25246CBC00D77C3F /* ViewController.swift in Sources */,
 				917E40D925246CBC00D77C3F /* AppDelegate.swift in Sources */,
-				917E40DB25246CBC00D77C3F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
